@@ -122,7 +122,6 @@ body{
     display: flex;
     flex-direction: row;
     margin: 0px 60px 0px 80px ;
-    box-sizing: border-box;
 }
 /* 
 .botimg>a>.divh1 >img{
@@ -133,6 +132,9 @@ body{
 .botimg>a{
     text-decoration: none;
     border: 0px solid #001F4D;
+}
+.botimg>a:hover{
+
 }
 
 
@@ -344,6 +346,7 @@ body{
 .footerli_five>a{
     margin: 0px 15px 0px 15px;
     border: 3px solid #FFFFFF;
+    height: 34px;
     border-radius: 10%;
 }
 .playstore{
