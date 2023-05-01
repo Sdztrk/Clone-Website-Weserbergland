@@ -71,9 +71,6 @@ body{
     flex-direction:column;
     width: 0;
 }
-.#threebutton>button{
-    width: 50px;
-}
 
 .naviga > li > a:hover{
     background-color: #588aca;
@@ -133,10 +130,6 @@ body{
     text-decoration: none;
     border: 0px solid #001F4D;
 }
-.botimg>a:hover{
-
-}
-
 
 .botimgi1{
     width: 175px;
