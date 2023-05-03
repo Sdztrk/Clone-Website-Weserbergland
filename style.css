@@ -46,32 +46,43 @@ body{
     font-size: smaller;
 }
 
-.secondul {
+.secondparthead {
     display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    list-style-type: none;
-    height: 48px;
     position: absolute; 
     right: 0%;
-    top: 0%; 
+    top: 0%;
 }
-.secondul>li{
-    width: 80px;
+.secondparthead1{
+    border: 2px solid black;
     height: 80px;
+    width: 80px;
     display: flex;
-    flex-direction: row;
     align-items: center;
     justify-content: center;
-    margin:5px ;
 }
-#threebutton{
+.secondparthead2{
+    border: 2px solid black;
     display: flex;
-    flex-direction:column;
-    width: 0;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 60px;
+    height: 80px;
 }
-
+.secondparthead2>button{
+    width: 30px;
+}
+.secondparthead3{
+    border: 2px solid black;
+    height: 80px;
+    width: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.secondparthead3>img{
+    border: 2px solid rgb(211, 30, 30);
+}
 .naviga > li > a:hover{
     background-color: #588aca;
 }
