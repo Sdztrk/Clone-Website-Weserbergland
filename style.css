@@ -53,35 +53,34 @@ body{
     top: 0%;
 }
 .secondparthead1{
-    border: 2px solid black;
     height: 80px;
     width: 80px;
     display: flex;
     align-items: center;
     justify-content: center;
 }
+.secondparthead1>a{
+    text-decoration: none;
+    color: #ffffffc7;
+    font-size: small;
+}
 .secondparthead2{
-    border: 2px solid black;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 60px;
+    width: 45px;
     height: 80px;
 }
 .secondparthead2>button{
-    width: 30px;
+    width: 20px;
 }
 .secondparthead3{
-    border: 2px solid black;
     height: 80px;
-    width: 60px;
+    width: 45px;
     display: flex;
     align-items: center;
     justify-content: center;
-}
-.secondparthead3>img{
-    border: 2px solid rgb(211, 30, 30);
 }
 .naviga > li > a:hover{
     background-color: #588aca;
