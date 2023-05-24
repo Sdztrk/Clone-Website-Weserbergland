@@ -113,14 +113,16 @@ body{
     align-items: center;
     justify-content: center;
     position: absolute;
-    left: 7%;
-    top: 84%;
+    left: 15%;
+    top: 89%;
+
 }
 .botimg{
     background-color: #001F4D;
     margin: 0px 30px 0px 30px;
     border-radius: 5px;
     transition: all .2s ease-in-out;
+    margin: 0px 50px;
 }
 .botimg>a{
     display: flex;
@@ -139,6 +141,7 @@ body{
     width: 250px;
     border-top-right-radius: 5px;
     border-bottom-right-radius: 5px;
+    
 }
 .botimgi2{
     width: 250px;
