@@ -22,16 +22,29 @@ body{
     flex-direction: row;
     align-items: center;
     justify-content:flex-start;
-    height: 80px; 
+    height: 80px;
     }
 
 .naviga{
     display: flex;
     flex-wrap: wrap; 
+    display: flex;
+    align-items: center;
+
 }
 
 .naviga > li{
     list-style-type: none;
+    margin: 2px;
+    transition: all .1s ease-in;
+    height: 40px;
+    display: flex;
+    align-items: center;
+}
+.naviga > li:hover{
+    background-color: #588aca;
+    border-radius: 5px;
+
 }
 
 .naviga > li > a {
@@ -44,8 +57,14 @@ body{
     letter-spacing: -0.1px;
     font-weight: bold;
     font-size: smaller;
+    height: 40px;
+    display: flex;
+    align-items: center;
 }
 
+/* .naviga > li > a:hover{
+    background-color: #588aca;
+} */
 .secondparthead {
     display: flex;
     position: absolute; 
@@ -82,9 +101,7 @@ body{
     align-items: center;
     justify-content: center;
 }
-.naviga > li > a:hover{
-    background-color: #588aca;
-}
+
 
 .logo{
     position: absolute;
