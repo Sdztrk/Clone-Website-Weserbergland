@@ -12,16 +12,14 @@ body{
     flex-direction: row;
     align-items: center;
     justify-content: center; 
-    height: 80px; 
+    height: 100px; 
     position: fixed;
     width: 100%;
     z-index: 1000;
 }
 .firstul {
     display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content:flex-start;
+    flex-direction: column-reverse;
     height: 80px;
     }
 
@@ -30,6 +28,7 @@ body{
     flex-wrap: wrap; 
     display: flex;
     align-items: center;
+
 
 }
 
