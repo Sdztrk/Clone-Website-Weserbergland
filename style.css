@@ -21,7 +21,8 @@ body{
     display: flex;
     flex-direction: column-reverse;
     height: 80px;
-    }
+
+}
 
 .naviga{
     display: flex;
@@ -34,16 +35,20 @@ body{
 
 .naviga > li{
     list-style-type: none;
-    margin: 2px;
+    margin: 0px 10px 0px 10px;
     transition: all .1s ease-in;
     height: 40px;
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
+    background-image: linear-gradient(to top, #588AC9 50%, #001F4D 50%);
+    background-size: 100% 200%;
+    background-position: top;
+    transition: background-position 0.1s ease-in-out;
 }
 .naviga > li:hover{
-    background-color: #588aca;
-    border-radius: 5px;
-
+    background-position: bottom;
+    cursor: pointer;
 }
 
 .naviga > li > a {
@@ -64,11 +69,12 @@ body{
 /* .naviga > li > a:hover{
     background-color: #588aca;
 } */
+
 .secondparthead {
     display: flex;
     position: absolute; 
     right: 0%;
-    top: 0%;
+    top: 10%;
 }
 .secondparthead1{
     height: 80px;
@@ -116,11 +122,11 @@ body{
 
 .wilkommen{
     position: absolute;
-    top: 30%;
-    left: 25%;
+    top: 45%;
+    left: 30%;
     font-size:x-large;
     color: #ffffffd7;
-    z-index: 0;
+    z-index: 3;
 }
 
 .botimgall{
@@ -131,7 +137,7 @@ body{
     position: absolute;
     left: 15%;
     top: 89%;
-
+    z-index: 3;
 }
 .botimg{
     background-color: #001F4D;
